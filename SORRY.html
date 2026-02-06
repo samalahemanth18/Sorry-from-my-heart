@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hey Premanvitha 💛</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #ffecd2, #fcb69f);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      max-width: 600px;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+    h1 {
+      color: #ff6f61;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.05rem;
+      color: #333;
+      line-height: 1.6;
+    }
+    .btn {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #ff6f61;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: transform 0.2s, background 0.2s;
+    }
+    .btn:hover {
+      background: #ff3b2e;
+      transform: scale(1.05);
+    }
+    .hidden {
+      display: none;
+      margin-top: 20px;
+      font-style: italic;
+      color: #555;
+    }
+    footer {
+      margin-top: 25px;
+      font-size: 0.85rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hey Premanvitha ❤️</h1>
+    <p>
+      I don’t know exactly what changed between us these past days,
+      but I do know one thing — I really miss <b>us</b>.
+    </p>
+    <p>
+      Our talks, our silly games, the comfort of just being ourselves.
+      If I hurt you in any way, knowingly or unknowingly, I’m truly sorry.
+    </p>
+    <p>
+      This page isn’t to force anything.
+      It’s just me saying: <br/>
+      <b>You matter to me.</b>
+    </p><button class="btn" onclick="showMessage()">Tap if you feel the same 🤍</button>
+
+<div id="message" class="hidden">
+  <p>
+    Even one small message from you would mean a lot.
+    Whenever you’re ready, I’ll be here —
+    to talk, to play games, to laugh like before.
+  </p>
+</div>
+
+<footer>
+  — Your friend, always
+</footer>
+
+  </div>  <script>
+    function showMessage() {
+      document.getElementById('message').classList.remove('hidden');
+    }
+  </script></body>
+</html>
